@@ -1,0 +1,38 @@
+.blogs-content-wrapper{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    width: 100%;
+}
+
+.blogs-content-wrapper h1{
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.blogs-card-wrapper{
+    display: flex;
+    gap: 90px;
+    justify-content: center;
+}
+
+.blogs-card h2{
+    cursor: pointer;
+    font-size: 30px;
+    height: 70px;
+    transition: all 0.3s ease-in-out;
+}
+
+.blogs-card h2:hover{
+    color: #be9f4f;
+}
+
+.blogs-card p{
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.date{
+    color: #be9f4f;
+}
