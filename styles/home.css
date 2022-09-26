@@ -1,0 +1,32 @@
+.home-banner-wrapper{
+    align-items: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    width: 100%;
+}
+
+.home-banner-wrapper h1{
+    text-align: center;
+}
+
+.home-banner-wrapper p{
+    max-width: 750px;
+}
+
+.home-btn-see-more{
+    background-color: #be9f4f8e;
+    border-radius: 10px;
+    display: block;
+    padding: 10px 20px;
+    position: absolute;
+    text-decoration: none;
+    top: 590px;
+    transition: all 0.3s ease-in-out;
+}
+
+.home-btn-see-more:hover{
+    background-color: #be9f4f;
+}

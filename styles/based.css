@@ -1,0 +1,48 @@
+body{
+    background: url('../assets/vector1.svg') 1234px -218px no-repeat, url('../assets/vector1.svg') -110px 460px no-repeat, #000000;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.title{
+    color: #ffffff;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.banner-title{
+    color: #be9f4f;
+    font-size: 120px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.text-description{
+    color: #adadad;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.text-btn{
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.container {
+    margin: 0 16px;
+    position: relative;
+    max-width: 100%;
+}
+
+@media only screen and (min-width: 768px){
+    .container{
+        margin: 0 40px;
+    }
+}
+
+@media only screen and (min-width: 1200px){
+    .container{
+        margin: 0 auto;
+        max-width: 1092px;
+    }
+}

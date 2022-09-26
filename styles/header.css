@@ -1,0 +1,29 @@
+header{
+    width: 100%;
+    padding: 40px 0;
+    position: fixed;
+    z-index: 999;
+}
+
+.nav-wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.nav-wrapper nav{
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+    width: 100%;
+}
+
+.nav-wrapper nav a{
+    color: #666262;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+.nav-wrapper nav a.active, .nav-wrapper nav a:hover{
+    color: #ffffff;
+}
+
